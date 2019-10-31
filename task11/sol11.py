@@ -37,7 +37,6 @@ def get_key(BIK, tbill):
     return (res * 3) % 10      
 
 def generate_bill(s):
-    bnum = ''
     days, country, BIK, num = s.split(' ')
 
     temp_bill = num_from_days(int(days)) + \
@@ -45,7 +44,6 @@ def generate_bill(s):
                 '00000' + num
 
     key = get_key(BIK, temp_bill)
-
 
     bill = temp_bill[:-12] + str(key) + temp_bill[-11:]
 
