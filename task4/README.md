@@ -16,9 +16,13 @@
 Для следующего журнала выполнения, правильным ответом будет **"4 5"**
 
 `Total processor utilization across all cores: 46`
+
 `Total processor utilization across all cores: 62`
+
 `Total processor utilization across all cores: 53`
+
 `Total processor utilization across all cores: 64`
+
 `Total processor utilization across all cores: 73`
 
 __Данные представлены в `dataset_267210_1.txt`__
