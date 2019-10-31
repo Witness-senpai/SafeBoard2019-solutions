@@ -21,7 +21,9 @@
 M, где: M - количество найденных отклонений
 
 **Sample Input:**
+
 letrhjuttsrydckpksafswnefddbus
+
 lstshjutteradcqakwlfsgazfueius
 
 ldtshjutciradcrakwvfswazfbeyus
