@@ -37,9 +37,9 @@ while len(inbytes) != 0:
         buffer += buffer[-1]
     elif (msg_type == 4):
         if (body_text == b'\x00'): # UTF-8
-            curr_code == "utf-8"
-        elif (body_text == b'\x01'): # ASCII
-            curr_code == "ascii"
+            curr_code = "utf-8"
+        elif (body_text == b'\x01'): # windows-1251!!!!
+            curr_code = "windows-1251"
     elif (msg_type == 5): 
         print(buffer)
 
